@@ -53,6 +53,3 @@ g++ -std=c++17 -o detector_vm *.cpp
 - `MacDetector.*` - Detección por MAC
 - `Makefile` - Para compilar en Linux
 
-## ⚠️ Nota
-
-Proyecto académico para la materia de ciberseguridad.
