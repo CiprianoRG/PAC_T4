@@ -1,8 +1,8 @@
-# 🚀 Detector de Máquinas Virtuales - Multi-Técnica
+# Detector de Máquinas Virtuales - Multi-Técnica
 
-**MIRA MI CHAVO:** Este es un detector avanzado de virtualización que usa tres técnicas diferentes para identificar si estás ejecutándote en una máquina virtual o en hardware físico.
+Este es un detector avanzado de virtualización que usa tres técnicas diferentes para identificar si estás ejecutándote en una máquina virtual o en hardware físico.
 
-## 🎯 ¿Qué hace este programa?
+## ¿Qué hace este programa?
 
 Este chulada de programa analiza tu sistema usando tres métodos distintos para detectar si estás en una VM:
 
@@ -10,7 +10,7 @@ Este chulada de programa analiza tu sistema usando tres métodos distintos para 
 - **🔍 Nivel Firmware** - Vendor del BIOS  
 - **🔍 Nivel Red** - Direcciones MAC de virtualización
 
-## 🏗️ Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
 ### **Módulos Principales:**
 
@@ -28,7 +28,7 @@ Este chulada de programa analiza tu sistema usando tres métodos distintos para 
 | **Display Utils** |  Controla la interfaz visual, tablas, banners y formato de salida | `display_utils.cpp` |
 | **Main Program** | Es el cerebro que coordina todo el flujo del programa | `main.cpp` |
 
-## 🛠️ Como Compilar Esta Maravilla
+##  Como Compilar Esta Maravilla
 
 ### **En Windows:**
 ```cmd
@@ -40,7 +40,7 @@ cl /EHsc /std:c++17 main.cpp color_utils.cpp display_utils.cpp CpuidDetector.cpp
 g++ -std=c++17 -o vm_detector main.cpp color_utils.cpp display_utils.cpp CpuidDetector.cpp BiosDetector.cpp MacDetector.cpp
 ```
 
-## 💻 Como Usar el Detector
+## Como Usar el Detector
 
 ### **Modo Normal (Recomendado):**
 ```bash
@@ -66,7 +66,7 @@ g++ -std=c++17 -o vm_detector main.cpp color_utils.cpp display_utils.cpp CpuidDe
 ./vm_detector --help
 ```
 
-## 📊 Ejemplo de Salida
+##  Ejemplo de Salida
 
 ```
 =========================================
@@ -108,12 +108,11 @@ Tecnicas: Todas | Modo: Resumen
 Analisis completado
 ```
 
-## 🎨 Interpretación de Resultados
+##  Interpretación de Resultados
 
 ### **Estados Posibles:**
 - **🟢 FISICA** - Probablemente hardware real
 - **🔴 VIRTUAL** - Detectado como máquina virtual  
-- **🟡 INCONCLUSIVO** - Necesita verificación manual
 
 ### **Niveles de Confianza:**
 - **EVIDENCIA FUERTE** - 3/3 técnicas detectan VM
@@ -121,7 +120,7 @@ Analisis completado
 - **POSIBLE VM** - 1/3 técnicas detecta VM
 - **PROBABLE FÍSICA** - 0/3 técnicas detectan VM
 
-## 🔧 Técnicas de Detección Implementadas
+##  Técnicas de Detección Implementadas
 
 ### **1. CPUID Hypervisor Bit**
 - **Qué hace:** Revisa el bit 31 del registro CPUID
@@ -138,7 +137,7 @@ Analisis completado
 - **Efectividad:** Buena para VMs con red NAT
 - **Limitaciones:** Fácil de evadir cambiando MAC
 
-## 🐛 Características Técnicas
+##  Características Técnicas
 
 - **✅ Multiplataforma** - Funciona en Windows y Linux
 - **✅ Colores Automáticos** - Se adapta a cada terminal
@@ -147,7 +146,7 @@ Analisis completado
 - **✅ Modular** - Fácil de extender y mantener
 
 
-## 👨💻 Desarrollo
+## 💻 Desarrollo
 
 ¿Quieres mejorar esta chulada? ¡Bienvenido!
 - Agrega nuevas técnicas de detección
@@ -156,5 +155,3 @@ Analisis completado
 - Reporta bugs o ideas
 
 ---
-
-**¡Listo mi chavo! Ahora tienes un detector bien documentado y profesional.** 🎯
