@@ -32,7 +32,7 @@ Este chulada de programa analiza tu sistema usando tres métodos distintos para 
 
 ### **En Windows:**
 ```cmd
-cl /EHsc /std:c++17 main.cpp color_utils.cpp display_utils.cpp CpuidDetector.cpp BiosDetector.cpp MacDetector.cpp advapi32.lib iphlpapi.lib ws2_32.lib
+cl /EHsc /std:c++17 /Fevm_detector.exe main.cpp color_utils.cpp display_utils.cpp CpuidDetector.cpp BiosDetector.cpp MacDetector.cpp advapi32.lib iphlpapi.lib ws2_32.lib
 ```
 
 ### **En Linux:**
