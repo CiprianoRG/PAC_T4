@@ -2,6 +2,12 @@
 
 Este es un detector avanzado de virtualización que usa tres técnicas diferentes para identificar si estás ejecutándote en una máquina virtual o en hardware físico.
 
+## Integrantes del Equipo
+- DIEGO AGUAYO FRIAS
+- VALERIA ABIGAIL NAVARRO CASAREZ
+- ASHLEY KARINA RIOS RODRIGUEZ
+- LUIS CIPRIANO RODRIGUEZ GONZALEZ
+
 ## ¿Qué hace este programa?
 
 Este chulada de programa analiza tu sistema usando tres métodos distintos para detectar si estás en una VM:
